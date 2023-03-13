@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <h1>STEPPER APP</h1>
-    <p class="number">0</p>
-    <div class="input">
-        <input type="text" placeholder="Time">
-        <input type="text">
+    <div class="box">
+        <h2 class="counter">0</h2>
+        <div class="inputs">
+            <input type="text" placeholder="Enter time" id="time">
+            <input type="text" placeholder="Enter step" id="step">
+        </div>
+        <div class="btns">
+            <button class="btn" id="decrement">Decrement</button>
+            <button class="btn" id="increment">Increment</button>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>
